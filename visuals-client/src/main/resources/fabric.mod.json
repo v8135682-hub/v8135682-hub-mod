@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "visualsclient",
+  "version": "${version}",
+  "name": "Visuals Client",
+  "description": "Visual modules + Celestial-style ClickGUI (RIGHT SHIFT).",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.visuals.VisualsClient"] },
+  "mixins": ["visuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
